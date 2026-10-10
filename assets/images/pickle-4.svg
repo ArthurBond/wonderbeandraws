@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EDE9FE" />
+      <stop offset="100%" stop-color="#DDD6FE" />
+    </linearGradient>
+    <linearGradient id="pickleGrad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#74C69D" />
+      <stop offset="100%" stop-color="#2D6A4F" />
+    </linearGradient>
+    <filter id="shadow4" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#2D6A4F" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="400" rx="28" fill="url(#bgGrad4)" />
+
+  <!-- Playful flourishes -->
+  <circle cx="80" cy="110" r="12" fill="#FF8DA1"/>
+  <circle cx="320" cy="100" r="15" fill="#FFD166"/>
+  <circle cx="70" cy="270" r="8" fill="#3A86FF"/>
+  <circle cx="340" cy="280" r="14" fill="#EF476F"/>
+
+  <!-- Pedestal -->
+  <ellipse cx="200" cy="325" rx="85" ry="18" fill="#2D283E" opacity="0.12"/>
+
+  <!-- Fancy Pickle -->
+  <g filter="url(#shadow4)">
+    <!-- Pickle Body -->
+    <path d="M 190 100 C 235 100, 245 140, 240 210 C 235 260, 230 295, 185 298 C 145 298, 145 260, 150 210 C 155 145, 150 100, 190 100 Z" 
+          fill="url(#pickleGrad4)" stroke="#1B4332" stroke-width="4"/>
+
+    <!-- Tiny Top Hat -->
+    <rect x="175" y="65" width="36" height="32" rx="4" fill="#2D283E"/>
+    <rect x="163" y="93" width="60" height="8" rx="4" fill="#2D283E"/>
+    <rect x="175" y="87" width="36" height="6" fill="#EF476F"/>
+
+    <!-- Monocle on right eye -->
+    <circle cx="212" cy="155" r="9" fill="none" stroke="#FFD166" stroke-width="2.5"/>
+    <path d="M 221 155 Q 235 180 230 210" fill="none" stroke="#FFD166" stroke-width="1.5"/>
+
+    <!-- Eyes -->
+    <circle cx="180" cy="155" r="4.5" fill="#1B4332"/>
+    <circle cx="212" cy="155" r="4.5" fill="#1B4332"/>
+    <circle cx="178" cy="153" r="1.5" fill="#FFFFFF"/>
+    <circle cx="210" cy="153" r="1.5" fill="#FFFFFF"/>
+
+    <!-- Dapper Mustache -->
+    <path d="M 196 172 C 190 166, 175 168, 170 176 C 178 178, 192 176, 196 172 Z" fill="#2D283E"/>
+    <path d="M 196 172 C 202 166, 217 168, 222 176 C 214 178, 200 176, 196 172 Z" fill="#2D283E"/>
+
+    <!-- Red Bow Tie -->
+    <polygon points="180,200 196,206 180,212" fill="#EF476F"/>
+    <polygon points="212,200 196,206 212,212" fill="#EF476F"/>
+    <circle cx="196" cy="206" r="4" fill="#EF476F"/>
+  </g>
+
+  <!-- Artwork Label Plate -->
+  <g transform="translate(100, 345)">
+    <rect width="200" height="32" rx="16" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+    <text x="100" y="21" font-family="'Fraunces', Georgia, serif" font-size="13" font-weight="700" fill="#2D283E" text-anchor="middle">Pickle No. 4: Sir Gherkin</text>
+  </g>
+</svg>

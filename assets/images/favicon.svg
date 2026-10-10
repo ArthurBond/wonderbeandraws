@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="beanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD166" />
+      <stop offset="100%" stop-color="#FF8DA1" />
+    </linearGradient>
+  </defs>
+  <!-- Bean Body -->
+  <path d="M 32 8 C 45 8, 54 18, 54 32 C 54 44, 46 54, 34 54 C 20 54, 12 46, 12 34 C 12 20, 22 8, 32 8 Z" fill="url(#beanGrad)" />
+  <!-- Cute bean indent -->
+  <path d="M 22 24 C 24 30, 24 36, 21 42" fill="none" stroke="#E63946" stroke-width="2.5" stroke-linecap="round" opacity="0.3"/>
+  <!-- Eyes -->
+  <circle cx="28" cy="28" r="3" fill="#2D283E" />
+  <circle cx="40" cy="28" r="3" fill="#2D283E" />
+  <circle cx="27" cy="27" r="1" fill="#FFFFFF" />
+  <circle cx="39" cy="27" r="1" fill="#FFFFFF" />
+  <!-- Cheeks -->
+  <circle cx="24" cy="33" r="3" fill="#EF476F" opacity="0.6" />
+  <circle cx="44" cy="33" r="3" fill="#EF476F" opacity="0.6" />
+  <!-- Smile -->
+  <path d="M 31 34 Q 34 38 37 34" fill="none" stroke="#2D283E" stroke-width="2" stroke-linecap="round" />
+  <!-- Little Artist Beret -->
+  <path d="M 24 13 C 24 9, 44 8, 44 13 C 45 15, 23 15, 24 13 Z" fill="#8338EC" />
+  <circle cx="34" cy="9" r="2" fill="#8338EC" />
+</svg>
