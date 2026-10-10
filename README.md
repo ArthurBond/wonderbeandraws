@@ -30,26 +30,3 @@ wonderbeandraws/
 │       └── pickle-6.svg    # Pickle #6: The Big Dill
 └── README.md
 ```
-
-## 🚀 GitHub Pages & Custom Domain Deployment
-
-### 1. Enable GitHub Pages
-1. Go to your GitHub repository: [github.com/ArthurBond/wonderbeandraws](https://github.com/ArthurBond/wonderbeandraws)
-2. Click **Settings** > **Pages** (in the left sidebar).
-3. Under **Branch**, select `main` and folder `/ (root)`.
-4. Click **Save**.
-5. Your site will immediately be live at:
-   `https://arthurbond.github.io/wonderbeandraws/`
-
-### 2. Connect Your Custom Domains (`wonderbean.com.au` / `wonderbean.au`)
-When you are ready to point your purchased domain:
-1. In **Settings > Pages > Custom domain**, enter `wonderbean.com.au` (or your chosen primary domain) and save. (This creates a `CNAME` file in the repo).
-2. In your DNS provider (where you bought the domain):
-   - **Apex domain (`@`) A records**:
-     - `185.199.108.153`
-     - `185.199.109.153`
-     - `185.199.110.153`
-     - `185.199.111.153`
-   - **Subdomain (`www`) CNAME record**:
-     - `arthurbond.github.io.`
-3. Check the **Enforce HTTPS** box in GitHub Pages settings.
